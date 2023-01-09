@@ -16,7 +16,7 @@ def main():
     humidity, temperature = Adafruit_DHT.read_retry(sensor, 24)
     gas = gas_sensor.getValue(0)
     lcd.setRGB(200,255,255)
-    lcd.setText("Bienvenido")
+    lcd.setText("Bienvenido a nuestra demo")
     time.sleep(3)
 
     contador = 0
@@ -29,8 +29,7 @@ def main():
                 time.sleep(4)
             if SpeechRecognicer.init() == "temperatura" or "humedad":
                 lcd.setRGB(0,0,255)
-                lcd.setText("Temperatura: %.1f C" % temperature)
-                lcd.setText("Humedad: %.1f %%" % humidity)
+		lcd.setText("Temperatura: %.1f C" % temperature + "Humedad: %.1f %%" % humidity)
                 time.sleep(4)
         if contador == 0:
             if temperature > 21 or humidity > 70 or gas > 160:
@@ -43,8 +42,7 @@ def main():
             else:
                 time.sleep(10)
                 lcd.setRGB(0,0,255)
-                lcd.setText("Temperatura: %.1f C" % temperature)
-                lcd.setText("Humedad: %.1f %%" % humidity)
+                lcd.setText("Temperatura: %.1f C" % temperature + "Humedad: %.1f %%" % humidity)
                 time.sleep(4)
 
 def read_dht_sensor():
