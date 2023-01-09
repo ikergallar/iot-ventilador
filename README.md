@@ -69,11 +69,26 @@ Insignia | URL
 
 <h2> Antes que nada... </h2>
 
-      Aqui describimos funcionamiento de instalar libreriasz y tal 
+     Debemos instalar las siguientes librerias: 
+     
+      ● pip install grove.py                      
+                              
+      ● pip install RPI.GPIO
+	
+      ● pip install Adafruit-DHT                    
+                              
+      ● pip install SpeechRecognition
       
+      ● sudo apt-get install python-dev portaudio19-dev 
+      
+      ● sudo apt-get install flac
+     
+      ● pip install PyAudio
+    
+  <h2> Ejecutamos el programa con el siguiente comando: </h2>
+  	
+      ● python main.py
   
-      
-
        
  [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
 
