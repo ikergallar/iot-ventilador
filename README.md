@@ -54,38 +54,9 @@ Insignia | URL
 
 <h2> Antes que nada... </h2>
 
-      Para poner en marcha la aplicación de Easy Renting Motors debemos dirigirnos a la carpeta 
-      erm/src/erm.main/App.java.
-   
-      Easy Renting Motors se inicia desde VentanaInicial. Si tenemos cuenta, iniciamos sesión. 
-      Si es nuestra primera vez en la aplicación, elegimos la opcion de "Registrar Usuario".
-
-      En el registro debemos poner un nombre de Usuario, contraseña y el email (@ y .).
-
-      Una vez registrados, entramos en la aplicación. 
+      Aqui describimos funcionamiento de instalar libreriasz y tal 
       
-   <h2> Dos opciones: </h2>
-                      
-   <h4> ⚠️ Como administrador: </h4>
-      
-      Esta sección está únicamente pensada para el equipo administrativo. El objetivo es poder manejar 
-      de una forma mucho mas accesible y cómoda los usuarios y coches de Easy Renting Motors.
-      
-      		● VentanaGestionStock: Gestiona el stock que hay actualmente en la tienda(mediante una lista con todos 
-                              los coches que hay en la tienda). Donde se puede agregar o eliminar coches segun 
-                              las necesidades del administrador, entre otras funciones.
-                              
-      		● VentanaGestionUsuarios: Gestiona todos los usuarios registrados en la tienda. Asi como tambien 
-                              crea nuevos usuarios y/o  eliminar los usuarios que se desee. 
-        
-   <h4> 📝Como usuario: </h4>
-   
-      El usuario podrá comprar, vender o alquilar un coche. Además, podrá escribir una opinión, cambiar su contraseña, ver
-      su perfil, politica de privacidad, contactar con ERM a traves de sus redes sociales etc.
-      
-      Iniciaremos en VentanaPrincipal. En ella tenemos una serie de coches divididos por categorias (A,B,C,D). 
-      Además en esa ventana tenemos dos botones que nos llevan a "Mi Perfil", y "Ajustes". (Mas abajo se detallan estos 
-      aspectos)
+  
       
 
        
