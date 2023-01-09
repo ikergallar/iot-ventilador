@@ -48,7 +48,22 @@ Insignia | URL
       ● Tasa de ventilación                         
                               
       ● Problemas de circulación
-
+      
+ ## 🤖 Sensores y actuadores
+ 
+   <h3> Hemos utilizado los siguientes sensores/actuadores: </h3>    
+      
+      ● Humedad                         
+                              
+      ● Temperatura
+	
+      ● Gas                    
+                              
+      ● Speech recognizer
+     
+      ● Display LCD
+      
+      ● Botón
 
 ## 🚀 Funcionamiento del proyecto
 
